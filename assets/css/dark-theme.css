@@ -1,0 +1,53 @@
+/* dark-theme.css - стили для тёмной темы */
+[data-theme="dark"] {
+    /* Фоны и тексты */
+    --color-background: #111827;
+    --color-background-alt: #1f2937;
+    --color-text: #f9fafb;
+    --color-text-light: #9ca3af;
+    --color-border: #374151;
+    
+    /* Тени для темной темы */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .category-card:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 1px var(--color-primary);
+}
+
+[data-theme="dark"] .theme-toggle-btn:hover {
+    background-color: var(--color-gray-700);
+}
+
+[data-theme="dark"] .user-dropdown-btn:hover {
+    background-color: var(--color-gray-700);
+}
+
+[data-theme="dark"] .dropdown-content a:hover {
+    background-color: var(--color-gray-700);
+}
+
+[data-theme="dark"] .btn-outline {
+    color: var(--color-text);
+}
+
+[data-theme="dark"] .btn-outline:hover {
+    background-color: var(--color-gray-700);
+}
+
+[data-theme="dark"] .post-author {
+    background-color: var(--color-gray-800);
+}
+
+[data-theme="dark"] .topic-card:hover,
+[data-theme="dark"] .notification-card:hover {
+    background-color: var(--color-gray-800);
+}
+
+[data-theme="dark"] .site-footer {
+    background-color: var(--color-gray-800);
+}
